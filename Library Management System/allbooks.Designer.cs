@@ -1,6 +1,6 @@
 ﻿namespace Library_Management_System
 {
-    partial class BookSearch
+    partial class allbooks
     {
         /// <summary>
         /// Required designer variable.
@@ -48,7 +48,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(222, 49);
+            this.label1.Location = new System.Drawing.Point(75, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 37);
             this.label1.TabIndex = 0;
@@ -58,18 +58,18 @@
             // 
             this.txtBName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.txtBName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBName.Location = new System.Drawing.Point(382, 49);
+            this.txtBName.Location = new System.Drawing.Point(176, 49);
             this.txtBName.Name = "txtBName";
-            this.txtBName.Size = new System.Drawing.Size(539, 43);
+            this.txtBName.Size = new System.Drawing.Size(762, 43);
             this.txtBName.TabIndex = 1;
             // 
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.Blue;
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(953, 42);
+            this.btnSearch.Location = new System.Drawing.Point(944, 49);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(156, 56);
+            this.btnSearch.Size = new System.Drawing.Size(135, 43);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
@@ -79,9 +79,9 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.LightYellow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(220, 227);
+            this.dataGridView1.Location = new System.Drawing.Point(147, 227);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(881, 190);
+            this.dataGridView1.Size = new System.Drawing.Size(365, 190);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -90,11 +90,15 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(519, 188);
+            this.label2.Location = new System.Drawing.Point(213, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 37);
             this.label2.TabIndex = 4;
             this.label2.Text = "Search Result";
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
             // label3
             // 
@@ -102,7 +106,7 @@
             this.label3.BackColor = System.Drawing.Color.DarkOrange;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(533, 431);
+            this.label3.Location = new System.Drawing.Point(692, 187);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(179, 37);
             this.label3.TabIndex = 5;
@@ -110,12 +114,13 @@
             // 
             // dataGridView2
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.LimeGreen;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.LightYellow;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(220, 490);
+            this.dataGridView2.Location = new System.Drawing.Point(538, 227);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(881, 190);
+            this.dataGridView2.Size = new System.Drawing.Size(552, 190);
             this.dataGridView2.TabIndex = 6;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label4
             // 
@@ -127,7 +132,7 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "(use full name for search)";
             // 
-            // BookSearch
+            // allbooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -141,7 +146,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtBName);
             this.Controls.Add(this.label1);
-            this.Name = "BookSearch";
+            this.Name = "allbooks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Book Search";
             this.Load += new System.EventHandler(this.Form1_Load);

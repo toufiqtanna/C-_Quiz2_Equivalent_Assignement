@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace Library_Management_System
 {
-    public partial class BookSearch : Form
+    public partial class allbooks : Form
     {
         Database dss = new Database();
         String query;
         int id;
-        public BookSearch()
+        public allbooks()
         {
             InitializeComponent();
             var books = GetAllBooks();
@@ -68,6 +68,16 @@ namespace Library_Management_System
                 dataGridView2.DataSource = ds.Tables[0];
 
             }
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

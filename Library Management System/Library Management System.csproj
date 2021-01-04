@@ -48,16 +48,16 @@
   <ItemGroup>
     <Compile Include="books.cs" />
     <Compile Include="Database.cs" />
-    <Compile Include="BookSearch.cs">
+    <Compile Include="allbooks.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BookSearch.Designer.cs">
-      <DependentUpon>BookSearch.cs</DependentUpon>
+    <Compile Include="allbooks.Designer.cs">
+      <DependentUpon>allbooks.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BookSearch.resx">
-      <DependentUpon>BookSearch.cs</DependentUpon>
+    <EmbeddedResource Include="allbooks.resx">
+      <DependentUpon>allbooks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

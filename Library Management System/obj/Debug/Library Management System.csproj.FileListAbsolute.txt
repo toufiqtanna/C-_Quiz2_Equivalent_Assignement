@@ -28,3 +28,13 @@ C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\OOP2-Quiz2_Equivalent_Assi
 C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\OOP2-Quiz2_Equivalent_Assignement-master\Library Management System\bin\Debug\Library Management System.exe
 C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\OOP2-Quiz2_Equivalent_Assignement-master\Library Management System\bin\Debug\Library Management System.pdb
 C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\OOP2-Quiz2_Equivalent_Assignement-master\Library Management System\obj\Debug\Library_Management_System.BookSearch.resources
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\bin\Debug\Library Management System.exe.config
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\bin\Debug\Library Management System.exe
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\bin\Debug\Library Management System.pdb
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library Management System.csprojAssemblyReference.cache
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library_Management_System.allbooks.resources
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.cache
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library Management System.exe
+C:\Users\toufi\OneDrive\Desktop\oop2\final assignment\Quiz2_Equivalent_Assignement\Library Management System\obj\Debug\Library Management System.pdb

@@ -15,8 +15,7 @@ namespace Library_Management_System
         {
             string connString = "Server=DESKTOP-N5CIT9Q\\SQLEXPRESS;Integrated Security=true;Database=Library";
             SqlConnection conn = new SqlConnection(connString);
-            /*string connString = "data source = DESKTOP-N5CIT9Q\SQLEXPRESS; database= Library; integrated security = True";
-            SqlConnection conn = new SqlConnection(connString);*/
+          
             return conn;
         }
         public DataSet getData(String query)
